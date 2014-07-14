@@ -536,6 +536,10 @@ pre {
   }
 }
 
+.simian-map {
+  width: 100%;
+}
+
 @font-face {
   font-family: "icons";
   src: url("../../images/icons/icons.eot");
