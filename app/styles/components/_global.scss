@@ -58,17 +58,8 @@ pre {
   }
 }
 
-// Map
-.simian-map {
-  width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .simian-map {
-    display: none;
-  }
-
-  .simian-image-map {
-    display: block;
+.where {
+  img {
+    margin: 2% 0%;
   }
 }
