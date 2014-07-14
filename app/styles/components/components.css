@@ -540,6 +540,15 @@ pre {
   width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .simian-map {
+    display: none;
+  }
+
+  .simian-image-map {
+    display: block;
+  }
+}
 @font-face {
   font-family: "icons";
   src: url("../../images/icons/icons.eot");
@@ -818,7 +827,7 @@ pre {
   color: #ffffff;
 }
 .highlight-module--remember::after {
-  background-color: #09829a;
+  background-color: #239392;
 }
 .highlight-module--remember a {
   color: #ffffff;
@@ -1262,7 +1271,7 @@ div.highlight > pre > code .il, code .highlight .il {
   padding-top: 0.6190em;
   padding-bottom: 0;
   padding-top: 0;
-  color: #3372df;
+  color: #96d60b;
 }
 @media only screen and (min-width: 800px) {
   .editorial-header__subtitle {
@@ -2655,7 +2664,7 @@ table {
   width: 100%;
 }
 table thead {
-  background: #3372df;
+  background: #239392;
   color: #ffffff;
 }
 table th {
@@ -3118,6 +3127,19 @@ object {
   .icon-circle--nav i {
     font-size: 26px;
   }
+}
+
+footer {
+  margin: 1% 0%;
+}
+footer .container {
+  text-align: center;
+}
+footer .container p {
+  display: inline;
+}
+footer .container img {
+  max-width: 20%;
 }
 
 /**
