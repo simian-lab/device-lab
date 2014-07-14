@@ -55,6 +55,10 @@
   $colorPerformance: #7b5294 !default;
   $colorPerformanceSecondary: lighten($colorPerformance, 30%) !default;
 
+  // Custom colors
+  $colorSimianBlue: #239392;
+  $colorSimianGreen: #96d60b;
+
   // Defining font family
   $fontDefault: Helvetica, Arial, sans-serif !default;
   $fontHighlight: "Roboto Condensed", Helvetica, sans-serif !default;
