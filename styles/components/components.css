@@ -536,19 +536,10 @@ pre {
   }
 }
 
-.simian-map {
-  width: 100%;
+.where img {
+  margin: 2% 0%;
 }
 
-@media screen and (max-width: 1024px) {
-  .simian-map {
-    display: none;
-  }
-
-  .simian-image-map {
-    display: block;
-  }
-}
 @font-face {
   font-family: "icons";
   src: url("../../images/icons/icons.eot");
@@ -2704,7 +2695,7 @@ table td::before {
   content: attr(data-th) " :";
   display: inline-block;
   color: #ffffff;
-  background: #3372df;
+  background: #239392;
   border-right: 2px solid #ffffff;
   position: absolute;
   top: 0;
