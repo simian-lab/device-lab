@@ -2632,7 +2632,10 @@ ol.list-links.list-links--secondary a::before {
 *
 **/
 a {
-  color: #3372df;
+  color: #96d60b;
+}
+a:visited {
+  color: rgba(150, 214, 11, 0.95);
 }
 
 a:hover {
@@ -3155,9 +3158,6 @@ footer .container {
 }
 footer .container p {
   display: inline;
-}
-footer .container a {
-  color: #96B60B;
 }
 footer .container img {
   max-width: 20%;

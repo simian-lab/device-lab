@@ -5,7 +5,11 @@
 **/
 
 a {
-  color: $colorBlue;
+  color: $colorSimianGreen;
+
+  &:visited {
+    color: transparentize($colorSimianGreen, 0.05);
+  }
 }
 
 a:hover {
