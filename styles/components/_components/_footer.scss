@@ -1,11 +1,17 @@
 footer {
-  margin: 1% 0%;
-  
+  margin: 1% 0% 0%;
+  padding: 1% 0% 2%;
+  border-top: 3px dashed #96B60B;
+
   .container {
     text-align: center;
 
     p {
       display: inline;
+    }
+
+    a {
+      color: #96B60B;
     }
 
     img {
