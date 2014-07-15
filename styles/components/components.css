@@ -663,6 +663,26 @@ pre {
   content: "\e018";
 }
 
+.icon-googleplus::before {
+  content: "\e600";
+}
+
+.icon-facebook::before {
+  content: "\e601";
+}
+
+.icon-twitter::before {
+  content: "\e602";
+}
+
+.icon-github::before {
+  content: "\e603";
+}
+
+.icon-linkedin::before {
+  content: "\e604";
+}
+
 /**
 *
 * Highlight
@@ -3126,13 +3146,18 @@ object {
 }
 
 footer {
-  margin: 1% 0%;
+  margin: 1% 0% 0%;
+  padding: 1% 0% 2%;
+  border-top: 3px dashed #96B60B;
 }
 footer .container {
   text-align: center;
 }
 footer .container p {
   display: inline;
+}
+footer .container a {
+  color: #96B60B;
 }
 footer .container img {
   max-width: 20%;
@@ -3170,6 +3195,18 @@ footer .container img {
 .theme--performance .themed {
   color: #7b5294;
 }
+.theme--facebook .themed {
+  color: #3b5998;
+}
+.theme--twitter .themed {
+  color: #00aced;
+}
+.theme--googleplus .themed {
+  color: #dd4b39;
+}
+.theme--linkedin .themed {
+  color: #007bb6;
+}
 
 .theme--multi-device-layouts .themed--background, .theme--multi-device-layouts .themed--background.next-lessons::before {
   background-color: #297ea9;
@@ -3182,6 +3219,18 @@ footer .container img {
 }
 .theme--performance .themed--background, .theme--performance .themed--background.next-lessons::before {
   background-color: #7b5294;
+}
+.theme--facebook .themed--background, .theme--facebook .themed--background.next-lessons::before {
+  background-color: #3b5998;
+}
+.theme--twitter .themed--background, .theme--twitter .themed--background.next-lessons::before {
+  background-color: #00aced;
+}
+.theme--googleplus .themed--background, .theme--googleplus .themed--background.next-lessons::before {
+  background-color: #dd4b39;
+}
+.theme--linkedin .themed--background, .theme--linkedin .themed--background.next-lessons::before {
+  background-color: #007bb6;
 }
 
 .theme--multi-device-layouts .themed--hover:hover {
