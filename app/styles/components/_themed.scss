@@ -14,6 +14,14 @@
 
   .theme--performance & { color: $colorPerformance; }
 
+  .theme--facebook & { color: $colorFacebook; }
+
+  .theme--twitter & { color: $colorTwitter; }
+
+  .theme--googleplus & { color: $colorGoogleplus; }
+
+  .theme--linkedin & { color: $colorLinkedin; }
+
 }
 
 .themed--background {
@@ -29,6 +37,18 @@
 
   .theme--performance &,
   .theme--performance &.next-lessons::before { background-color: $colorPerformance; }
+
+  .theme--facebook &,
+  .theme--facebook &.next-lessons::before { background-color: $colorFacebook; }
+
+  .theme--twitter &,
+  .theme--twitter &.next-lessons::before { background-color: $colorTwitter; }
+
+  .theme--googleplus &,
+  .theme--googleplus &.next-lessons::before { background-color: $colorGoogleplus; }
+
+  .theme--linkedin &,
+  .theme--linkedin &.next-lessons::before { background-color: $colorLinkedin; }
 
 }
 

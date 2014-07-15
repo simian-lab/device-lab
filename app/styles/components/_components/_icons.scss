@@ -147,3 +147,28 @@ $icon-user-input: "\e018";
 .icon-user-input::before {
   content:"\e018";
 }
+
+$icon-googleplus: "\e600";
+.icon-googleplus::before {
+  content:"\e600";
+}
+
+$icon-facebook: "\e601";
+.icon-facebook::before {
+  content:"\e601";
+}
+
+$icon-twitter: "\e602";
+.icon-twitter::before {
+  content:"\e602";
+}
+
+$icon-github: "\e603";
+.icon-github::before {
+  content:"\e603";
+}
+
+$icon-linkedin: "\e604";
+.icon-linkedin::before {
+  content:"\e604";
+}
