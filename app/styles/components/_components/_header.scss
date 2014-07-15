@@ -1,1 +1,18 @@
 header {}
+
+.page-header {
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h3 {
+    text-shadow: 0 0 10px black;
+    color: white;
+  }
+
+  .page-header__excerpt {
+    @media screen and (max-width: 480px) {
+      font-weight: 400;
+    }
+  }
+}
